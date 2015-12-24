@@ -5,9 +5,9 @@
 #include <iostream>
 
 
-void printSomething()
+void printSomethingBetter()
 {
-	std::cout << "Something!" << std::endl;
+	std::cout << "Something Better!" << std::endl;
 }
 
 int main()
@@ -15,10 +15,10 @@ int main()
 	std::cout << "Hello World!" << std::endl;
 
 	for (int i = 0; i < 10; i++) {
-		printSomething();
+		printSomethingBetter();
 		std::cout << "i = " << i << std::endl;
 	}
-
-    return 0;
+		
+	return 0;
 }
 
